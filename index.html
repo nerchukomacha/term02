@@ -219,7 +219,9 @@
         var code4 = editor4.getValue();
         var code5 = editor5.getValue();
         try {
-          var result1 = eval(code1); // Execute Python code (simplified)
+          var result1 = eval(code1);
+          var res1 = eval(name)
+          var res2 = eval(email)// Execute Python code (simplified)
         } catch (error) {
           document.getElementById('output').innerHTML = 'Error: ' + error;
         }
