@@ -150,9 +150,7 @@
             <label for="question5">Question 5:</label>
             <div id="editor5"></div>
           </div>
-          <div class="submit-button">
-            <button onclick="runCode()">Convert to PDF</button>
-          </div>
+          
         </form>
       </div>
     </div>
@@ -220,8 +218,7 @@
         var code5 = editor5.getValue();
         try {
           var result1 = eval(code1);
-          var res1 = eval(name)
-          var res2 = eval(email)// Execute Python code (simplified)
+          // Execute Python code (simplified)
         } catch (error) {
           document.getElementById('output').innerHTML = 'Error: ' + error;
         }
